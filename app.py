@@ -8,7 +8,7 @@ name = st.text_input("Wie heißt dein Kämpfer?")
 if name == "":
     st.info("Gebe erst deinen Namen an")
     st.stop()
-st.write("hallo", name)
+st.write("Hallo", name)
 
 if "spielerleben" not in st.session_state:
     st.session_state['spielerleben'] = 10
